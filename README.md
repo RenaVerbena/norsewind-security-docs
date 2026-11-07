@@ -28,9 +28,9 @@ Each tier should stay in its lane. A policy says what must be true and leaves th
 
 Every document lists its governing and related documents in the metadata block, by ID and title. Links follow one rule: a document links to anything at the same or lower classification, and refers to anything more sensitive by ID only.
 
-In this set, the policy, standard, and procedure are Internal and link to each other. The runbook is Confidential because it describes detection logic, pre-authorized actions, and escalation paths. It links up to the standard and the procedure. The procedure refers to the runbook by ID. Someone with access finds it by ID in the runbook repository. Someone without access learns that it exists and who owns it, which is all they need. IDs without links refer to documents outside this sample set or at a higher classification.
+In this set, the policy, standard, and procedure are Internal and link to each other. The runbook is Confidential because it describes detection logic, pre-authorized actions, and escalation paths. The runbook links up to the standard and the procedure. The procedure refers to the runbook by ID. Someone with access finds the runbook by its ID in the runbook repository. Someone without access learns that the runbook exists and who owns it. Knowing the owner is enough to request access. IDs without links refer to documents outside this sample set or at a higher classification.
 
-Many programs also keep a document register: one index listing every document with its owner, classification, and location. The Files table above is a small version of one.
+Many programs also keep a document register: one index listing every document with its owner, classification, and location. The Files table above is a small document register.
 
 ## Conventions in this set
 
@@ -40,7 +40,7 @@ Many programs also keep a document register: one index listing every document wi
 - **AI-era assumptions block** immediately after the summary: the four threat assumptions the document is written against. The block states that these assumptions are the organization's own and go beyond the minimum requirements of the mapped frameworks, so a reader can tell at a glance which requirements exceed what any framework mandates.
 - **The tag `[Beyond framework minimum]`** marks an individual requirement or step that follows from those assumptions rather than from a mapped control. Everything untagged should trace to a control in the Control Mapping section.
 - **Requirement language:** *must* and *shall* are mandatory, *should* is recommended and needs a documented reason to skip, *may* is optional.
-- **Control mapping** at the end of each document lists the framework references the document supports. Many programs keep this mapping in a separate register or GRC tool instead, and that works. Keeping it in the document puts the evidence next to the requirement. The mappings here are illustrative. In a real program they are verified against the organization's Statement of Applicability and control library.
+- **Control mapping** at the end of each document lists the framework references the document supports. Many programs keep this mapping in a separate register or GRC tool instead, and that approach works. Keeping the mapping in the document puts the evidence next to the requirement. The mappings here are illustrative. In a real program they are verified against the organization's Statement of Applicability and control library.
 - **Revision history** as the final section.
 
 ## Adapting the set
