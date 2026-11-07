@@ -13,7 +13,7 @@ The company, Norsewind Precision Manufacturing, Inc., is fictional. All content 
 | **Procedure** | Who does what, in what order, to meet the standard | Team lead owns, CISO or delegate approves | Tools or roles change |
 | **Runbook** | What to do when a specific condition occurs | Security Operations owns | After every exercise or real incident |
 
-Each tier should stay in its lane. A policy says what must be true and leaves the steps to procedures. A standard holds the measurable parameters so the policy doesn't have to change when a number does. A procedure points to the standard for parameters rather than repeating them. Real programs drift from this, and that's fine. The closer a set stays to it, the easier it is to change a review interval without re-approving the policy.
+Each tier should stay in its lane. A policy says what must be true and leaves the steps to procedures. A standard holds the measurable parameters so the policy doesn't have to change when a number does. A procedure points to the standard for parameters rather than repeating them. Real programs drift from these boundaries, and that's fine. The closer a set keeps each tier in its lane, the easier it is to change a review interval without re-approving the policy.
 
 ## Files
 
