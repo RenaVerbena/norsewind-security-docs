@@ -19,12 +19,12 @@ A tier should keep to its own lane as much as possible. A policy says what must 
 
 ## Files
 
-| Document ID | Title | Tier | Classification |
-|---|---|---|---|
-| POL-IS-004 | [Access Control Policy](POL-IS-004_Access-Control-Policy.md) | Policy | Internal |
-| STD-IS-012 | [Privileged Access Management Standard](STD-IS-012_Privileged-Access-Management-Standard.md) | Standard | Internal |
-| PRO-IS-031 | [Privileged Access Request, Approval, and Review Procedure](PRO-IS-031_Privileged-Access-Request-and-Review-Procedure.md) | Procedure | Internal |
-| RB-IR-007 | [Runbook: Suspected Compromise of a Privileged Account](RB-IR-007_Suspected-Privileged-Account-Compromise-Runbook.md) | Runbook | Confidential |
+| Tier | Document ID | Title | Classification |
+| --- | --- | --- | --- |
+| Policy | POL-IS-004 | [Access Control Policy](POL-IS-004_Access-Control-Policy.md) | Internal |
+| Standard | STD-IS-012 | [Privileged Access Management Standard](STD-IS-012_Privileged-Access-Management-Standard.md) | Internal |
+| Procedure | PRO-IS-031 | [Privileged Access Request, Approval, and Review Procedure](PRO-IS-031_Privileged-Access-Request-and-Review-Procedure.md) | Internal |
+| Runbook | RB-IR-007 | [Runbook: Suspected Compromise of a Privileged Account](RB-IR-007_Suspected-Privileged-Account-Compromise-Runbook.md) | Confidential |
 
 ## Finding related documents
 
