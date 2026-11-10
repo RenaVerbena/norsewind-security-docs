@@ -2,7 +2,9 @@
 
 A four-tier sample set showing how a policy, a standard, a procedure, and a runbook fit together in a security governance program. All four documents cover one domain, privileged access, so you can follow a single requirement from board-approved intent down to the steps an on-call analyst takes at 2 a.m.
 
-The company, Norsewind Precision Manufacturing, Inc., is fictional. All content is original. Written by [Jorena Collins](https://github.com/RenaVerbena/RenaVerbena).
+The company, Norsewind Precision Manufacturing, Inc., is a fictional secure-access facility with high-availability industrial control systems, critical continuous uptime power, and environmental control infrastructure.
+
+All content is original. Written by [Jorena Collins](https://github.com/RenaVerbena/RenaVerbena).
 
 ## The hierarchy
 
