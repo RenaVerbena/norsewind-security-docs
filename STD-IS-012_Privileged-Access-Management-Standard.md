@@ -84,6 +84,8 @@ Any credential suspected of exposure shall be rotated immediately and the event 
 - C. Security Operations shall maintain detection rules for, at minimum: privileged login outside approved hours or locations, privileged account creation outside the PAM platform, use of a break-glass account, repeated failed privileged authentication, and activity by an AI agent account outside its approved scope `[Beyond framework minimum]`.
 - D. Detection rules for privileged account creation outside the PAM platform and for break-glass use shall trigger automatic disablement of the account pending review, without waiting for analyst confirmation. `[Beyond framework minimum]`
 
+**Sample design note:** Automatic disablement supports rapid containment, but on OT systems it could interrupt a critical process or affect physical safety. This tradeoff remains an open design question: Security Operations, IAM, and facilities engineering would need to validate an OT exception under Section X or an alternative containment approach that preserves the automatic-response intent. This note does not resolve the discrepancy with RB-IR-007's OT safety checks or approve an exception.
+
 ## IX. Access Review and Recertification
 
 - A. Every privileged account shall be recertified by its owner quarterly using the review workflow in PRO-IS-031.
